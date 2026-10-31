@@ -1,0 +1,10 @@
+name: MimicPerms
+version: '1.0'
+main: me.amets.mimicperms.MimicPermsPlugin
+api-version: '1.21'
+depend:
+  - Mimic
+commands:
+  mimic:
+    description: Transformarse en criaturas y gestionar quién puede usarlo
+    usage: /mimic <criatura|quitar|dar|revocar|permitidos|lista>
